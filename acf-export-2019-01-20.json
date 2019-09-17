@@ -1,0 +1,141 @@
+[
+    {
+        "key": "group_5c1cba7b77532",
+        "title": "Affärer",
+        "fields": [
+            {
+                "key": "field_5c1cbbc0eb959",
+                "label": "Address",
+                "name": "address",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5c1cbbd8eb95a",
+                "label": "Öppetider",
+                "name": "oppetider",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5c1cbc4aeb95b",
+                        "label": "Dag",
+                        "name": "dag",
+                        "type": "text",
+                        "instructions": "Tex Måndag\r\nMåndag-Fredag",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5c1cbc60eb95c",
+                        "label": "Tid från",
+                        "name": "tid_fran",
+                        "type": "time_picker",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "display_format": "H:i",
+                        "return_format": "H:i"
+                    },
+                    {
+                        "key": "field_5c1cbcffeb95d",
+                        "label": "Tid till",
+                        "name": "tid_till",
+                        "type": "time_picker",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "display_format": "H:i",
+                        "return_format": "H:i"
+                    }
+                ]
+            },
+            {
+                "key": "field_5c1cbd13eb95e",
+                "label": "karta",
+                "name": "karta",
+                "type": "google_map",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "center_lat": "",
+                "center_lng": "",
+                "zoom": "",
+                "height": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "store_post_type"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "the_content",
+            "discussion",
+            "comments",
+            "author",
+            "categories",
+            "tags"
+        ],
+        "active": 1,
+        "description": ""
+    }
+]
